@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+}
+
+#leftnav {
+  height: 20px;
+  background-color: #606c5d;
+  list-style-type: none;
+  margin: 0px;
+  padding: 30px;
+  display: flex;
+  padding-left: 40px;
+  width: 77%;
+}
+
+#leftnav a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+  color: #f1c376;
+  /* display: flex;
+  flex-direction: row; */
+  margin-right: 40px;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#leftnav a:hover {
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  /* display: flex;
+  flex-direction: row; */
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.rightnav {
+  width: 23%;
+  background-color: #606c5d;
+  padding: 25px;
+  padding-left: 100px;
+}
+
+#mainsearch {
+  background-color: #323830;
+  border-radius: 20px;
+  border: 3px solid #f1c376;
+  margin-right: 4px;
+  padding-top: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#mainsearchbtn img {
+  cursor: pointer;
+  color: #606c5d;
+  border: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: #606c5d;
+  margin-top: 1px;
+}
+
+#mainsearchbtn {
+  background-color: #606c5d;
+  border: initial;
+}
+
+/* NAVBAR */
+
+/* Discription Box */
+
+.mainpage {
+  background-color: #f1c376;
+  height: 700px;
+  width: 100%;
+  /* margin-top: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desbox {
+  border-radius: 10px;
+  background-color: #f7e6c4;
+  margin: auto;
+  height: 500px;
+  width: 800px;
+  border: 3px solid #606c5d;
+  display: flex;
+}
+
+#leftside {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 50%;
+}
+
+#rightside {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  width: 50%;
+}
+#mainhead {
+  font-size: 25px;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#mainpara {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+#rightsidesubhead {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 7px;
+}
+
+#rightsideul {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
